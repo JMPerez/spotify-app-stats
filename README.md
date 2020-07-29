@@ -9,6 +9,8 @@ You need to use the Spotify credentials for the owner of the app. Make sure you 
 You find the application id navigating to https://developer.spotify.com/dashboard/applications, clicking on the application you are interested, and taking the last bit of the URL. For a URL like https://developer.spotify.com/dashboard/applications/04dca0de1c4e4aca88cc615ac23581be the application id is 04dca0de1c4e4aca88cc615ac23581be.
 
 ```js
+const SpotifyAppStats = require("@jmperez/spotify-app-stats");
+
 (async () => {
   const spotifyAppStats = new SpotifyAppStats();
   await spotifyAppStats.init();
