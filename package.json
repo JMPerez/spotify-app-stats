@@ -1,0 +1,18 @@
+{
+  "name": "spotify-app-stats",
+  "version": "0.0.1",
+  "description": "A library to fetch the stats for your Spotify App from Spotify's developer site",
+  "main": "index.js",
+  "keywords": [
+    "spotify"
+  ],
+  "author": "Jose M. Perez",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^5.2.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
