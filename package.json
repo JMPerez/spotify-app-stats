@@ -1,5 +1,5 @@
 {
-  "name": "@jmperez/spotify-app-stats",
+  "name": "spotify-app-stats",
   "version": "0.0.1",
   "description": "A library to fetch the stats for your Spotify App from Spotify's developer site",
   "main": "index.js",
@@ -15,8 +15,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/JMPerez/spotify-app-stats"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
