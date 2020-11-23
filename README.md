@@ -6,7 +6,7 @@ This library lets you fetch your Spotify app stats from Spotify's developer site
 
 You need to use the Spotify credentials for the owner of the app. Make sure you don't leak the password committing it to a public repository, and use secret environment variables instead.
 
-You find the application id navigating to https://developer.spotify.com/dashboard/applications, clicking on the application you are interested, and taking the last bit of the URL. For a URL like https://developer.spotify.com/dashboard/applications/04dca0de1c4e4aca88cc615ac23581be the application id is 04dca0de1c4e4aca88cc615ac23581be.
+You find the application id navigating to https://developer.spotify.com/dashboard/applications, clicking on the application you are interested, and taking the last bit of the URL. For a URL like https://developer.spotify.com/dashboard/applications/04dca0de1c4e4aca88cc615ac23581be the application id is `04dca0de1c4e4aca88cc615ac23581be`.
 
 ```js
 const SpotifyAppStats = require("@jmperez/spotify-app-stats");
@@ -191,6 +191,6 @@ The stats will have a similar format to this:
 
 There are several ways yoou could leverage this data:
 
+- Creating a public dashboard so anyone can see the stats for your app. See [Spotify Dedup' Stats](https://spotify-dedup.com/stats) as an example.
 - Integrating the data in a personal dashboard
-- Creating a public dashboard so anyone can see the stats for your app
 - Storing the data so you can get more than 30 days worth of stats, which is what Spotify's developer site shows today.
